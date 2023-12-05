@@ -1,0 +1,29 @@
+/* General Style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Start FeedBack */
+.feedbach-section{
+    background-color: #dd5e89;
+    color: #fffafa;
+    padding: 1.5rem 0;
+}
+.info h1{
+    font-weight: 700;
+    color: #fffafa;
+}
+.info p{
+    font-size: 16px;
+    margin: auto 15rem;
+}
+.info img{
+    width: 5rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+/* End Feedback */

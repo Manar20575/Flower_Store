@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Philosopher', sans-serif;
+}
+#fh5co-footer {
+    background: #fffafa;
+        padding: 7em 0;
+        clear: both;
+}
+  #fh5co-footer .fh5co-footer-links {
+    padding: 0;
+    margin: 0;
+  }
+  #fh5co-footer .fh5co-footer-links li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  #fh5co-footer .fh5co-footer-links li a {
+    color: #000;
+    text-decoration: none;
+  }
+  #fh5co-footer .fh5co-footer-links li a:hover {
+    color: #dd5e89;
+  }
+
+  #fh5co-footer .fh5co-footer-links li a:hover {
+    text-decoration: underline;
+  }
+  #fh5co-footer .fh5co-widget {
+    margin-bottom: 30px;
+  }
+  @media screen and (max-width: 768px) {
+    #fh5co-footer .fh5co-widget {
+      text-align: left;
+    }
+    #fh5co-footer{
+        padding: 3em 0;
+    }
+  }
+  #fh5co-footer .fh5co-widget h3 {
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  #fh5co-footer .copyright .block {
+    display: block;
+  }
+  
+.fh5co-social-icons {
+    margin: 0;
+    padding: 0;
+  }
+  .fh5co-social-icons li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+  }
+  .fh5co-social-icons li a {
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    display: inline;
+    color: #dd5e89;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .fh5co-social-icons li a i {
+    font-size: 20px;
+  }
+  .list ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .list li{
+    list-style: none;
+  }
+  .list ul li a {
+    display: block;
+    width: 65px;
+    height: 49px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 20px;
+    margin: 0 10px;
+}
+.list .icon {
+    position: relative;
+    color: #0f0f0f;
+    transition: 0.5s;
+    z-index: 3;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.list ul li a:hover .icon {
+    color: #dd5e89;
+    transform: rotateY(360deg);
+}  

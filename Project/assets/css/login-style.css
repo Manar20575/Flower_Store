@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Philosopher', sans-serif;
+}
+.for{
+    padding:0;
+    margin:0;
+    height: 100vh;
+    background:url(../../assets/img/back-1.jpg);
+    background-size: cover;
+}
+.gg{
+    padding: 10px;
+    color: #dd5e89;
+    text-align: center;
+}
+.log-btn{
+    width:200px;
+    height:40px;
+    color:whitesmoke;
+    border-radius: 10px;
+    background-color:#dd5e89;
+    border-color:#dd5e89;
+}
+.xx{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    box-shadow: 10px 10px 30px;
+    width:30%;
+    height:75%;
+    background:rgba(0,0,0,0.5);
+    border-radius: 20px;
+    color:aliceblue;
+    padding: 5rem 2rem;
+}
+img{
+    width:70px;
+    height:70px;
+}
+.data{
+    width:300px;
+    margin:20px;
+    margin-bottom: 0px;
+}
+.my_div{
+    display: flex;
+    justify-content: center;
+}
+input[type="username"]{
+    width:180px;
+    height:30px;
+    padding:5px;
+    background:none;
+    margin-left:10px;
+    border:none;
+    border:hidden;
+    color:aliceblue;
+}
+input[type="gmail"]{
+    width:180px;
+    height:30px;
+    padding:5px;
+    background:none;
+    margin-left:10px;
+    border:none;
+    border:hidden;
+    color:aliceblue;
+}
+input[type="password"], input[type="Re-pass"]{
+    width:180px;
+    height:30px;
+    padding:5px;
+    background:none;
+    margin-left:10px;
+    border:0px;
+    color:aliceblue;
+}
+
+hr{
+    width:350px;
+    height: 1px;
+    color:grey;
+}
+#end{
+    
+    padding:10px;
+    text-align: center;
+    
+}
+a{
+    padding:7px;
+    text-decoration: none;
+    color:#fffafa; 
+    font-size: larger;
+    
+}
+a:hover{
+    color:#dd5e89;
+}
+::placeholder{
+    color:#fffafa;
+    opacity:1;
+}
+

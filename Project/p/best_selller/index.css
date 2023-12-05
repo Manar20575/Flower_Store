@@ -1,0 +1,109 @@
+/* 
+Sections:-
+1. Start Genral
+
+5. Start Arrivals
+6. Start Media Arrivals
+7. Start deals
+8. Start Media Deals
+
+************************************************************************************************************************************************************************
+************************************************************************************************************************************************************************/
+
+/* 1. Start Genral */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 1. End Genral */
+/*5. Start Arrivals */
+    .arrivals_section{
+        background-color: #fffafa;
+        text-align: center;
+        padding-bottom: 4rem;
+    }
+    .arrivals_details{
+        margin: auto 23rem;
+    }
+    .img_cart{
+        background-color: #f8e3f4;
+    }
+    .checked {
+        color: orange;
+    }
+    .frow p, .pink{
+        color: #dd5e89;
+    }
+    .srow p{
+        color: rgba(0, 0, 0, 0.466);
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(auto-fill , minmax(300px ,1fr));
+        gap: 10px 10px;
+    }
+    .add_cart{
+        color: black;
+        font-weight: 500;
+        border: 1px solid #dd5e89;
+        border-radius: 40px;
+        -webkit-border-radius: 40px;
+        -moz-border-radius: 40px;
+        -ms-border-radius: 40px;
+        -o-border-radius: 40px;
+}
+.add_cart:hover{
+        background-color: #dd5e89;
+        text-align: center;
+    }
+/* 5. End Arrivals */
+/* 6. Start Media Arrivals */
+@media (max-width:1280px) {
+    .arrivals_details{
+        margin: auto 10rem;
+    }
+}
+@media (max-width:412px) {
+    .arrivals_details{
+        margin: auto 1rem;
+    }
+}
+/* 6. End Media Arrivals */
+/* 7. Start deals */
+.deals_details{
+    margin: auto 12.5rem 0 0;
+}
+.date_item{
+    text-align: center;
+    width: 57px;
+    margin-bottom: 35px;
+    border: 1px solid rgba(0, 0, 0, 0.516);
+    border-radius: 25px;
+    padding:12px 0;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+hr{
+    width: 50%;
+    margin: auto;
+}
+/* 7. End deals */
+/* 8. Start Media Deals */
+@media (max-width:1280px) {
+    .deals_details{
+        margin: 0;
+    }
+}
+@media (max-width:412px) {
+    .deals_contant{
+        display: block !important;
+    }
+    .date{
+        width: 100% !important;
+    }
+}
+/* 8. End Media deals */
+
